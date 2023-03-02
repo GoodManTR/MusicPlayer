@@ -1,0 +1,67 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="Playback">
+
+        <ListPreference
+            app:defaultValue="off"
+            app:key="sleepTimer"
+            app:title="Sleep Timer"
+            app:entries="@array/timer_entries"
+            app:entryValues="@array/timer_values">
+        </ListPreference>
+
+        <com.goodman.musicplayer.layoutClass.FloatSeekBarPreference
+            app:key="playbackSpeed"
+            app:title="Playback Speed"
+            app:defaultValue="1.0"
+            app:minValue="0.5"
+            app:maxValue="2.0"
+            app:valueSpacing="0.1"
+            app:format="\u00D7%3.1f"/>
+
+        <com.goodman.musicplayer.layoutClass.FloatSeekBarPreference
+            app:key="audioPitch"
+            app:title="Audio Pitch"
+            app:defaultValue="1.0"
+            app:minValue="0.5"
+            app:maxValue="2.0"
+            app:valueSpacing="0.1"
+            app:format="\u00D7%3.1f"/>
+
+        <SwitchPreferenceCompat
+            app:key="skipQuietParts"
+            app:title="Skip The Quiet Parts Between Songs"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="General">
+
+        <MultiSelectListPreference
+            app:key="tabs"
+            app:title="Tabs To Show"
+            app:entries="@array/tabs_entries"
+            app:entryValues="@array/tabs_values"
+            android:defaultValue="@array/default_tabs_array"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            app:key="appTheme"
+            app:title="App Theme"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            android:defaultValue="defaultTheme"
+            app:useSimpleSummaryProvider="true"/>
+
+        <Preference
+            app:title="Rate Our App"/>
+
+        <Preference
+            app:key="aboutApp"
+            app:title="About Music Player" />
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

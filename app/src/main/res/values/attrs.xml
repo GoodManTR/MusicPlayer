@@ -1,0 +1,18 @@
+<resources>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+        <attr name="colorBackground" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="FloatSeekBarPreference">
+        <attr name="minValue" format="float"/>
+        <attr name="maxValue" format="float"/>
+        <attr name="valueSpacing" format="float"/>
+        <attr name="format" format="string"/>
+    </declare-styleable>
+
+    <attr name="seekBarPreferenceStyle" format="reference"/>
+
+</resources>

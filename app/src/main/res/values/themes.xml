@@ -1,0 +1,85 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MusicPlayer" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/tabs_color</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarTheme">@color/tabs_color</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="SeekBarTheme" parent="Widget.AppCompat.SeekBar">
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeOverlay.MusicPlayer.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+
+    <style name="mainActivityStyle" parent="">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="tabsStyle" parent="">
+        <item name="android:background">@color/tabs_color</item>
+    </style>
+
+    <style name="searchTabsStyle" parent="">
+        <item name="android:background">@color/sheet_color</item>
+    </style>
+
+    <style name="sheetTopStyle" parent="">
+        <item name="android:background">@drawable/sheet_background</item>
+    </style>
+
+    <style name="playerStyle" parent="">
+        <item name="android:background">@drawable/player_background</item>
+    </style>
+
+    <style name="playerButtonStyle" parent="">
+        <item name="android:background">@drawable/player_button_drawables</item>
+    </style>
+
+    <style name="sheetButtonStyle" parent="">
+        <item name="android:background">@drawable/sheet_button_drawables</item>
+    </style>
+
+    <style name="textStyle" parent="">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="listButtonStyle" parent="">
+        <item name="android:background">@drawable/list_button_style</item>
+    </style>
+
+    <style name="everythingToolbarStyle" parent="">
+        <item name="android:titleTextColor">@color/colorPrimaryText</item>
+    </style>
+
+<!--    <style name="Goodman.PopupMenu" parent="Widget.AppCompat.PopupMenu">-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_gravity">center</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:textColor">@color/colorPrimaryText</item>-->
+<!--    </style>-->
+
+    <style name="Goodman.PopupMenu" parent="Widget.Material3.PopupMenu">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">32dp</item>
+    </style>
+
+
+
+
+
+
+</resources>

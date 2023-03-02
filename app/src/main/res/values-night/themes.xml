@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MusicPlayer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarTheme">@color/black</item>
+    </style>
+
+    <style name="SeekBarTheme" parent="Widget.AppCompat.SeekBar">
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeOverlay.MusicPlayer.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_900</item>
+        <item name="fullscreenTextColor">@color/light_blue_A400</item>
+    </style>
+
+    <style name="mainActivityStyle" parent="">
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+
+    <style name="tabsStyle" parent="">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="searchTabsStyle" parent="">
+        <item name="android:background">@color/colorBackground2</item>
+    </style>
+
+    <style name="sheetTopStyle" parent="">
+        <item name="android:background">@drawable/sheet_background_night</item>
+    </style>
+
+    <style name="playerStyle" parent="">
+        <item name="android:background">@drawable/player_background_night</item>
+    </style>
+
+    <style name="playerButtonStyle" parent="">
+        <item name="android:background">@drawable/player_button_drawables_night</item>
+    </style>
+
+    <style name="sheetButtonStyle" parent="">
+        <item name="android:background">@drawable/sheet_button_drawables_night</item>
+    </style>
+
+    <style name="listButtonStyle" parent="">
+        <item name="android:background">@drawable/list_button_style</item>
+    </style>
+
+    <style name="textStyle" parent="">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="everythingToolbarStyle" parent="">
+        <item name="android:titleTextColor">@color/colorSecondaryText</item>
+    </style>
+
+</resources>

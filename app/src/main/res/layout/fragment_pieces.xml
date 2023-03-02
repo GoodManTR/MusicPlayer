@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.PiecesFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/musicListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:scrollbarThumbVertical="@drawable/vertical_thumb"
+        android:scrollbarTrackVertical="@drawable/vertical_track"
+        style="@style/mainActivityStyle"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/recylerview_tool_adapter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

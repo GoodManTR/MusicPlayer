@@ -1,0 +1,51 @@
+<resources>
+    <!-- Settings -->
+    <string-array name="timer_entries">
+        <item>Off</item>
+        <item>30 Minutes</item>
+        <item>1 Hour</item>
+        <item>1 Hour 30 Minutes</item>
+        <item>2 Hours</item>
+    </string-array>
+
+    <string-array name="timer_values">
+        <item>off</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </string-array>
+
+    <string-array name="default_tabs_array">
+        <item>songs</item>
+        <item>albums</item>
+        <item>artists</item>
+        <item>favorites</item>
+    </string-array>
+
+    <string-array name="tabs_entries">
+        <item>Songs</item>
+        <item>Albums</item>
+        <item>Artists</item>
+        <item>Favorites</item>
+    </string-array>
+
+    <string-array name="tabs_values">
+        <item>songs</item>
+        <item>albums</item>
+        <item>artists</item>
+        <item>favorites</item>
+    </string-array>
+
+    <string-array name="theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System Default</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>lightTheme</item>
+        <item>darkTheme</item>
+        <item>defaultTheme</item>
+    </string-array>
+</resources>

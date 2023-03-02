@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="_00_00">00:00</string>
+    <string name="_0_00">0:00</string>
+    <string name="now_play_ng">Now Playıng</string>
+    <string name="current_song_title">Current Song Title</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="tab_recycler">recycler</string>
+    <string name="tab_nested_scroll">nested</string>
+    <string name="tab_view_pager">viewpager</string>
+
+    <string name="bottom_sheet_title">Bottom Sheet</string>
+    <string name="action_bottom_sheet_dialog">Bottom Sheet Dialog</string>
+</resources>

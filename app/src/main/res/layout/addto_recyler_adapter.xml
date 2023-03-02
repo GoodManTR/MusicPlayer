@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="@drawable/recyclervievclickeffect">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+
+        <LinearLayout
+            android:id="@+id/textsParentLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/songMusicImage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="4dp"
+                android:layout_marginStart="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/asdas"
+                app:riv_corner_radius="6dp"
+                app:riv_border_width="1px"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/listTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="700px"
+                    android:minWidth="70dp"
+                    android:singleLine="true"
+                    android:text="Song"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/listSongCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:minWidth="70dp"
+                    android:singleLine="true"
+                    android:maxWidth="700px"
+                    android:text="Artist"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
